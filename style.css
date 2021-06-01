@@ -1,9 +1,10 @@
 * {
-    font-family: ;
-    margin: ;
-    padding: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding:20px ;
 }
 
 .biginhalt {
     display: flex;
 }
+
