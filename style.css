@@ -27,13 +27,25 @@ main {
     padding: 0;
 }
 
-.carousel {
-    width: 60%; 
-    height: auto;   
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-#footerbutton {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    }
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-light {
+    padding: 20px 40px 20px 40px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
