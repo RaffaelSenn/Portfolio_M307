@@ -2,79 +2,99 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/logo/logo.png" type="image/gif" sizes="16x16">
-    <title>Ritter Architekten</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/logo/logo.png" type="image/gif" sizes="16x16">
+  <title>Ritter Architekten</title>
+  <script language="javascript" type="text/javascript" src="ritter.js"></script>
+  <script type="text/javascript" src="ritterJson.json"></script>
 
 </head>
 
 <body>
 
-    <header id="header">
-        <img src="./assets/logo/logo.svg" alt="Logo">
-        <h1>Ritter Architekten</h1>
+  <header id="header">
+    <img src="./assets/logo/logo.svg" alt="Logo">
+    <h1>Ritter Architekten</h1>
 
-<!--         Dis is a comment, mama mia         -->
+    <!--         Dis is a comment, mama mia         -->
 
-    </header>
-    <main>
+  </header>
+  <main>
     <!-- Bootstrap Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/gallery/amir-hosseini-3cl6impBd_8-unsplash.jpg" class="d-block w-100" alt="Slider 1">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/gallery/kimon-maritz-mQiZnKwGXW0-unsplash.jpg" class="d-block w-100" alt="Slider 2">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/gallery/lance-anderson-oq2WOgySksM-unsplash.jpg" class="d-block w-100" alt="Slider 3">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/gallery/mueen-agherdien-bW6JWZJWwmg-unsplash.jpg" class="d-block w-100" alt="Slider 3">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/gallery/rachel-cheng-qqejxg_KFxA-unsplash.jpg" class="d-block w-100" alt="Slider 3">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-
-      <!-- Bootstrap Card -->
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Architektur Video</h5>
-          <p class="card-text">Schauen sie unser Video über Architektur.</p>
-          <a href="./video.html" class="btn btn-secondary">Zum Video</a>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/gallery/amir-hosseini-3cl6impBd_8-unsplash.jpg" class="d-block w-100" alt="Slider 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/gallery/kimon-maritz-mQiZnKwGXW0-unsplash.jpg" class="d-block w-100" alt="Slider 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/gallery/lance-anderson-oq2WOgySksM-unsplash.jpg" class="d-block w-100" alt="Slider 3">
         </div>
       </div>
-    
-    </main>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    
-    <footer>
-      <!-- Bootstrap Button -->
-      <a type="button" class="btn btn-light" href="#">Zurück zum Start</a>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <form id="myform">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Max"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Mustermann"><br>
+      <label for="lname">Email:</label><br>
+      <input type="email" id="email" value="max.mustermann@gmail.com"><br>
+      <label for="lname">Newslatter abonnieren:</label><br>
+      <input type="checkbox" id="checkbox" checked><br>
+
+      <br>
+      <input type="button" onclick="ritter()" value="Submit">
+    </form>
+    <script>
+      ritteer();
+    </script>
+
+    <!-- Bootstrap Card -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Architektur Video</h5>
+        <p class="card-text">Schauen sie unser Video über Architektur.</p>
+        <a href="./video.html" class="btn btn-secondary">Zum Video</a>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer>
+    <!-- Bootstrap Button -->
+    <a type="button" class="btn btn-light" href="#">Zurück zum Start</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
 
 
