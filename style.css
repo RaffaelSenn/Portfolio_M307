@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent !important;
 }
 
 
@@ -47,5 +48,85 @@ footer {
 
 .video {
     display: flex;
+    justify-content: center
+}
+
+#myform {
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-top: 225px;
+    padding-bottom: 225px;
+
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/** höhe Boxen **/
+.card {
+    height: 180px;
+}
+
+/** myform box styling email-formular **/
+#fname {
+    border-color: lightgrey;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+#lname {
+    border-color: lightgrey;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+#email {
+    border-color: lightgrey;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+label {
+    padding: 10px 0 5px 0;
+}
+
+input {
+    border-color: lightgrey;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }

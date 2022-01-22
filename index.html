@@ -10,7 +10,7 @@
   <link rel="icon" href="./assets/logo/logo.png" type="image/gif" sizes="16x16">
   <title>Ritter Architekten</title>
   <script language="javascript" type="text/javascript" src="ritter.js"></script>
-  <script type="text/javascript" src="ritterJson.json"></script>
+
 
 </head>
 
@@ -58,6 +58,73 @@
     </div>
 
 
+    <!-- JavaScript start -->
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h5>Famous Architects</h5>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 3rem"></div>
+      <!-- Output Artist and Family -->
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">Architects</div>
+            <ul class="list-group list-group-flush">
+              <li id="architects" class="list-group-item">?</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">Famous Buildings</div>
+            <ul class="list-group list-group-flush">
+              <li id="famousbuildings" class="list-group-item">?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="margin-bottom: 1.5rem"></div>
+
+      <!-- Output works -->
+
+      <div style="margin-bottom: 2rem"></div>
+      <!-- Pagination -->
+      <div class="col-sm"></div>
+      <nav aria-label="Page navigation example">
+        <ul id="pagination" class="pagination">
+          <li class="page-item">
+            <a class="page-link" onclick="showPrevious()" href="#/">&#10229;</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" onclick="showNext()" href="#/">&#10230;</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+
+
+    <script src="script/data.js"></script>
+    <script src="script/app.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <!-- JavaScript finish -->
+
+
+
     <form id="myform">
       <label for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname" value="Max"><br>
@@ -65,7 +132,7 @@
       <input type="text" id="lname" name="lname" value="Mustermann"><br>
       <label for="lname">Email:</label><br>
       <input type="email" id="email" value="max.mustermann@gmail.com"><br>
-      <label for="lname">Newslatter abonnieren:</label><br>
+      <label for="lname">Newsletter abonnieren:</label><br>
       <input type="checkbox" id="checkbox" checked><br>
 
       <br>
@@ -75,14 +142,14 @@
       ritteer();
     </script>
 
-    <!-- Bootstrap Card -->
+    <!-- Bootstrap Card 
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Architektur Video</h5>
         <p class="card-text">Schauen sie unser Video über Architektur.</p>
         <a href="./video.html" class="btn btn-secondary">Zum Video</a>
       </div>
-    </div>
+    </div> -->
 
   </main>
 
