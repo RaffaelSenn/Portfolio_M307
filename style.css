@@ -51,7 +51,7 @@ footer {
     justify-content: center
 }
 
-#myform {
+#myForm {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -90,7 +90,6 @@ h5 {
 
 /** myform box styling email-formular **/
 #fname {
-    border-color: lightgrey;
     border-width: 1.5px;
     border-style: solid;
     border-radius: 5px;
@@ -100,7 +99,6 @@ h5 {
 }
 
 #lname {
-    border-color: lightgrey;
     border-width: 1.5px;
     border-style: solid;
     border-radius: 5px;
@@ -110,7 +108,6 @@ h5 {
 }
 
 #email {
-    border-color: lightgrey;
     border-width: 1.5px;
     border-style: solid;
     border-radius: 5px;
@@ -124,9 +121,10 @@ label {
 }
 
 input {
-    border-color: lightgrey;
     border-width: 1.5px;
     border-style: solid;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
-}
+} 
+
+/* Neuer Teil */

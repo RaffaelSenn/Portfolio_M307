@@ -125,22 +125,26 @@
 
 
 
-    <form id="myform">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="Max"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Mustermann"><br>
-      <label for="lname">Email:</label><br>
-      <input type="email" id="email" value="max.mustermann@gmail.com"><br>
-      <label for="lname">Newsletter abonnieren:</label><br>
-      <input type="checkbox" id="checkbox" checked><br>
-
+    <form id="myForm" class="myForm" name="myForm" action="index.html" method="post" required>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Max"><br>
+      </div>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Mustermann"><br>  
+      </div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="max.mustermann@gmail.com"><br>
+      </div>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="99"><br><br>   
+      </div>
+      <div>  
+        <label for="checkbox">Newsletter abonnieren:</label><br>
+        <input type="checkbox" name="checkbox" id="checkbox" checked><br>
+      </div>  
       <br>
       <input type="button" onclick="ritter()" value="Submit">
     </form>
-    <script>
-      ritteer();
-    </script>
 
     <!-- Bootstrap Card 
     <div class="card">
@@ -166,3 +170,4 @@
 
 
 </html>
+
